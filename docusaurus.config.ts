@@ -51,7 +51,7 @@ const config: Config = {
           // Remove this to remove the "edit this page" links.
           // https://holocron.so/github/pr/{owner}/{repo}/{branch}/editor/{path}
           // editUrl: `https://github.com/${organizationName}/${projectName}/tree/${deploymentBranch}/`,
-          editUrl: `https://holocron.so/github/${organizationName}/${projectName}/edits/editor/`,
+          // editUrl: `https://holocron.so/github/pr/${organizationName}/${projectName}/main/editor/`,
         },
         blog: {
           blogTitle: 'News',
@@ -61,7 +61,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl: `https://github.com/${organizationName}/${projectName}/tree/${deploymentBranch}/`,
-          editUrl: `https://holocron.so/github/${organizationName}/${projectName}/edits/editor/`,
+          // editUrl: `https://holocron.so/github/pr/${organizationName}/${projectName}/main/editor/`,
         },
         theme: {
           customCss: './src/css/custom.css',
