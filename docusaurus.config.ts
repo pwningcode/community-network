@@ -1,11 +1,10 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
-import type {Options as DocsOptions} from '@docusaurus/plugin-content-docs';
+import type { Config } from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 const organizationName = 'pwningcode'
 const projectName = 'community-network';
-const deploymentBranch = 'main';
+const deploymentBranch = 'gh-pages';
 
 const config: Config = {
   title: 'Our Community Network App',
@@ -145,10 +144,10 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
-        {to: '/blog', label: 'News', position: 'left'},
-        {to: '/roadmap', label: 'Roadmap', position: 'left'},
-        {to: '/discussions', label: 'Discussions', position: 'left'},
-        {to: '/feedback', label: 'Feedback', position: 'left'},
+        { to: '/blog', label: 'News', position: 'left' },
+        { to: '/roadmap', label: 'Roadmap', position: 'left' },
+        { to: '/discussions', label: 'Discussions', position: 'left' },
+        { to: '/feedback', label: 'Feedback', position: 'left' },
         {
           type: 'dropdown',
           label: 'Documentation',
