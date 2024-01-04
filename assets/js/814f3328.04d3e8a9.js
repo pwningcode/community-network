@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcommunity_network=self.webpackChunkcommunity_network||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"News","items":[{"title":"Happy New Year","permalink":"/community-network/blog/2024/01/03/new-year","unlisted":false},{"title":"Introduction","permalink":"/community-network/blog/introduction","unlisted":false}]}')}}]);
