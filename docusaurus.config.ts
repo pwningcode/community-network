@@ -49,8 +49,9 @@ const config: Config = {
           showLastUpdateTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            `https://github.com/${organizationName}/${projectName}/tree/${deploymentBranch}/`,
+          // https://holocron.so/github/pr/{owner}/{repo}/{branch}/editor/{path}
+          // editUrl: `https://github.com/${organizationName}/${projectName}/tree/${deploymentBranch}/`,
+          editUrl: `https://holocron.so/github/pr/${organizationName}/${projectName}/edits/editor/`,
         },
         blog: {
           blogTitle: 'News',
@@ -59,72 +60,14 @@ const config: Config = {
 
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            `https://github.com/${organizationName}/${projectName}/tree/${deploymentBranch}/`,
+          // editUrl: `https://github.com/${organizationName}/${projectName}/tree/${deploymentBranch}/`,
+          editUrl: `https://holocron.so/github/pr/${organizationName}/${projectName}/edits/editor/`,
         },
         theme: {
           customCss: './src/css/custom.css',
         },
       } satisfies Preset.Options,
     ],
-  ],
-
-  plugins: [
-    // [
-    //   '@docusaurus/plugin-content-docs',
-    //   {
-    //     id: 'guide',
-    //     path: 'docs/guide',
-    //     routeBasePath: 'docs/guide',
-    //     sidebarPath: './sidebars.ts',
-    //     showLastUpdateAuthor: true,
-    //     showLastUpdateTime: true,
-    //   } satisfies DocsOptions,
-    // ],
-    // [
-    //   '@docusaurus/plugin-content-docs',
-    //   {
-    //     id: 'knowledge',
-    //     path: 'docs/knowledge',
-    //     routeBasePath: 'docs/knowledge',
-    //     sidebarPath: './sidebars.ts',
-    //     showLastUpdateAuthor: true,
-    //     showLastUpdateTime: true,
-    //   } satisfies DocsOptions,
-    // ],
-    // [
-    //   '@docusaurus/plugin-content-docs',
-    //   {
-    //     id: 'requirements',
-    //     path: 'docs/requirements',
-    //     routeBasePath: 'docs/requirements',
-    //     sidebarPath: './sidebars.ts',
-    //     showLastUpdateAuthor: true,
-    //     showLastUpdateTime: true,
-    //   } satisfies DocsOptions,
-    // ],
-    // [
-    //   '@docusaurus/plugin-content-docs',
-    //   {
-    //     id: 'research',
-    //     path: 'docs/research',
-    //     routeBasePath: 'docs/research',
-    //     sidebarPath: './sidebars.ts',
-    //     showLastUpdateAuthor: true,
-    //     showLastUpdateTime: true,
-    //   } satisfies DocsOptions,
-    // ],
-    // [
-    //   '@docusaurus/plugin-content-docs',
-    //   {
-    //     id: 'technical',
-    //     path: 'docs/technical',
-    //     routeBasePath: 'docs/technical',
-    //     sidebarPath: './sidebars.ts',
-    //     showLastUpdateAuthor: true,
-    //     showLastUpdateTime: true,
-    //   } satisfies DocsOptions,
-    // ],
   ],
 
   themeConfig: {
@@ -200,23 +143,23 @@ const config: Config = {
             },
           ],
         },
-        // {
-        //   title: 'Community',
-        //   items: [
-        //     {
-        //       label: 'Stack Overflow',
-        //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-        //     },
-        //     {
-        //       label: 'Discord',
-        //       href: 'https://discordapp.com/invite/docusaurus',
-        //     },
-        //     {
-        //       label: 'Twitter',
-        //       href: 'https://twitter.com/docusaurus',
-        //     },
-        //   ],
-        // },
+        {
+          title: 'Community',
+          items: [
+            {
+              label: 'Stack Overflow',
+              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+            },
+            {
+              label: 'Discord',
+              href: 'https://discordapp.com/invite/docusaurus',
+            },
+            {
+              label: 'Twitter',
+              href: 'https://twitter.com/docusaurus',
+            },
+          ],
+        },
         {
           title: 'More',
           items: [
