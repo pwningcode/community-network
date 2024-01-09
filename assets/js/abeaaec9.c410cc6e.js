@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcommunity_network=self.webpackChunkcommunity_network||[]).push([[556],{8695:e=>{e.exports=JSON.parse('{"permalink":"/community-network/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":3,"blogDescription":"Blog","blogTitle":"News"}')}}]);
