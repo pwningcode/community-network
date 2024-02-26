@@ -11,15 +11,13 @@ sidebar_position: 6
 
 ### Community Leaders
 
+This is 
 
 ### Non-profit Directors
 
-
 ### Foundations
 
-
 ### Youth Leaders
-
 
 ### Activists
 
