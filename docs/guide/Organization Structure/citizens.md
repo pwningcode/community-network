@@ -11,7 +11,7 @@ sidebar_position: 6
 
 ### Community Leaders
 
-This is 
+This is some text
 
 ### Non-profit Directors
 
